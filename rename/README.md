@@ -6,3 +6,10 @@ It runs at current location.
 ```
 ./rename.sh
 ```
+
+## How it works
+Based in `sed` command regex, looks for  filename whitespaces to replace them by middle-dash.
+
+## Future ideas
+* [ ] add option to replace specific patter
+* [ ] add options to remove/include prefix/sufix
