@@ -1,13 +1,5 @@
-# pr : Pull-Request made easy
-Track files listing them and prevent unhandled bulk staging from global commands like `git add .` Add, commit and push made easy only for the files you are working on.
+# Bash tools
+Homemade bash tool baked with loved to make life easy.
 
-## use
-```
-# (required) commit message
-# (required) branch
-pr [commit message] [branch]
-```
-
-## futere ideas
-* [ ] path option : pr [path] ...
-* [ ] check required options
+* [pr : pull-request made easy](pull-request/README.md)
+* [rename : rename files bulks in a second](rename/README.md)
