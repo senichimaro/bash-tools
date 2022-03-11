@@ -9,5 +9,5 @@ pr [commit message] [branch]
 ```
 
 ## futere ideas
-[ ] path option : pr [path] ...
-[ ] check required options
+* [ ] path option : pr [path] ...
+* [ ] check required options
