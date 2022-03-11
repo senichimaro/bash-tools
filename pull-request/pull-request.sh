@@ -1,7 +1,6 @@
 #!usr/bin/sh    
 
 function pr(){
-    # FILES=$(git status -s | sed -e 's/\^(\?|M|D\)//g')
     FILES=$(git status -s | sed 's/\(?\)//g' | sed 's/[A-Z]//' | sed 's/ *//')
     echo "$FILES"
     echo "$FILES" | xargs git add
