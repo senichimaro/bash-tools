@@ -1,4 +1,4 @@
-#!usr/bin/sh    
+#!/bin/sh    
 
 function pr(){
     FILES=$(git status -s | sed 's/\(?\)//g' | sed 's/[A-Z]//' | sed 's/ *//')

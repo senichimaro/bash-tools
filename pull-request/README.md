@@ -1,6 +1,10 @@
 # pr : Pull-Request made easy
 Track files listing them and prevent unhandled bulk staging from global commands like `git add .` Add, commit and push made easy only for the files you are working on.
 
+## How to activate
+
+`source ~/.my_custom_commands.sh`
+
 ## use
 ```
 # (required) commit message
